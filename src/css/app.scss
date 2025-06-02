@@ -16,7 +16,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #10b981;
+  background: #0059e0;
   border-radius: 6px;
 }
 
@@ -26,4 +26,15 @@ body {
 
 .p-datepicker-input {
   border-radius: 12px !important;
+}
+
+html,
+body,
+#q-app {
+  height: 100%;
+}
+
+h2,
+h3 {
+  font-weight: 600;
 }

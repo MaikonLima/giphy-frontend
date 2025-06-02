@@ -1,14 +1,32 @@
 <template>
-    <div class="flex items-center justify-between bg-blue-600 text-white px-6 py-4 shadow">
-        <div class="flex items-center gap-2">
-            <img src="/logo.png" alt="Logo" class="h-8" />
-            <span class="text-lg font-bold">SGAW</span>
-        </div>
-        <div class="flex items-center gap-3">
-            <span class="text-sm uppercase">Nome Programador</span>
-            <q-avatar size="32px">
-                <q-icon name="person" />
-            </q-avatar>
-        </div>
-    </div>
+  <q-header elevated class="bg-red-100-[!important] text-grey-8 q-py-xs" height-hint="58">
+    <q-toolbar class="bg-[#0059E0]">
+      <q-btn
+        flat
+        dense
+        round
+        @click="$emit('toggle-drawer')"
+        aria-label="Menu"
+        icon="menu"
+        class="text-white"
+      />
+
+      <q-btn flat no-caps no-wrap class="q-ml-xs" v-if="$q.screen.gt.xs">
+        <q-toolbar-title shrink class="text-weight-bold text-white"> GIPHY </q-toolbar-title>
+      </q-btn>
+
+      <q-space />
+      <q-space />
+
+      <AvatarCard />
+    </q-toolbar>
+  </q-header>
 </template>
+
+<script setup lang="ts">
+import AvatarCard from '../ImageComponent/AvatarCard.vue';
+
+defineEmits<{
+  (e: 'toggle-drawer'): void;
+}>();
+</script>
