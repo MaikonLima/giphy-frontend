@@ -1,0 +1,13 @@
+{
+    "welcome": "Bem-vindo ao app",
+    "about": {
+        "aboutme": "Sobre mim",
+        "description": "Desenvolvedor de Software Pleno, com sólida experiência no desenvolvimento de aplicações web e mobile. Atuando desde 2021 na área, possui forte domínio em tecnologias frontend como Vue (Options API e Composition API), React, Angular e Next, além de backend com Node.js, NestJS. Tem ampla vivência na criação de componentes reutilizáveis, consumo de APIs RESTful, além da definição de arquitetura de projetos. Acostumado a trabalhar em ambientes colaborativos com metodologias ágeis (Scrum), participando ativamente desde o levantamento de requisitos até a entrega de soluções robustas e escaláveis. Possui conhecimentos sólidos em bancos de dados MySQL e PostgreSQL, além de práticas modernas de desenvolvimento, versionamento e documentação de APIs (Swagger). Profissional dedicado, proativo e em constante busca por evolução técnica, comprometido com a entrega de valor e a melhoria contínua dos processos e produtos."
+    },
+    "header": {
+        "title": "📄 Propósito do Teste",
+        "body": "Este teste visa avaliar habilidades práticas no desenvolvimento com Vue.js e Quasar Framework, focando na criação de componentes reutilizáveis, layouts responsivos e na apresentação eficiente de dados dinâmicos.",
+        "subtTitle": "🛠️ Tecnologias Utilizadas",
+        "subBody": "O projeto foi desenvolvido com uma stack moderna, adotando as seguintes tecnologias:"
+    }
+}
